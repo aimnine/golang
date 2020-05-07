@@ -19,4 +19,5 @@ func main() {
 	//	err2 := dictionary.Delete(baseWord)
 	err2 := dictionary.Delete(baseWord + "asdf")
 	fmt.Println(err2)
+	fmt.Println(dictionary)
 }
